@@ -97,6 +97,7 @@ public class RTPDemo {
 		driver.findElement(By.cssSelector("div[class='cc-headerBar-link js-userIcon']")).click();
 		driver.findElement(By.xpath("//div[@class='cc-header-userMenu-container js-userSubMenu']/a[4]")).click();
 		Thread.sleep(1000);
+		System.out.println("You have successfully logged out !!!");
     	// closing browser
 		driver.close();
 	}
